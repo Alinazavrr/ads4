@@ -84,16 +84,7 @@ expected O(V + E) complexity. For very small graphs the timings are dominated by
 JVM warm-up and measurement overhead, so the comparison between BFS and DFS is
 not meaningful at that scale; the trend stabilises as the graph grows.
 
-## E. Screenshots
-
-Place the following screenshots inside `docs/screenshots/`:
-
-- `graph-output.png` — output of `printGraph()` for the small graph.
-- `bfs-output.png` — BFS traversal order for the small graph.
-- `dfs-output.png` — DFS traversal order for the small graph.
-- `performance.png` — performance results table for all three sizes.
-
-## F. Reflection
+## E. Reflection
 
 Working through this assignment made the difference between BFS and DFS very
 concrete. BFS expands outward in waves, which makes it ideal whenever you need
